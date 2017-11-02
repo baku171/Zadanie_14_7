@@ -1,0 +1,41 @@
+body {
+    background-color: #d1cece
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm>input {
+    width: 300px;
+    margin: 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.contactForm>button {
+    width: 150px;
+    height: 40px;
+    background-color: #4340f0;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin: 10px 2px;
+}
+
+.contactsList {
+    display: flex;
+}
+
+.contactItem {
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid grey;
+    border-radius: 15px 0px 15px 0px;
+}
+
+.contactItem>img {
+    width: 200px;
+    height: 200px;
+}
